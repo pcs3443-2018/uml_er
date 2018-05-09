@@ -57,6 +57,9 @@
             <children xsi:type="notation:Shape" xmi:id="_Xwk88FL7EeiH3IFEFYp_8w" type="Column" element="_Xv3yUFL7EeiH3IFEFYp_8w" fontName="Segoe UI">
               <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Xwk88VL7EeiH3IFEFYp_8w"/>
             </children>
+            <children xsi:type="notation:Shape" xmi:id="_9P9qkFMyEeiSlcxCa8d7LA" type="Column" element="_9Pja4FMyEeiSlcxCa8d7LA" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_9P9qkVMyEeiSlcxCa8d7LA"/>
+            </children>
             <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_aLyDMTp8EeeGePl1lXoFag" sortingKeys="Natural:Ascending"/>
           </children>
           <children xmi:id="_aLyDMjp8EeeGePl1lXoFag" visible="false" type="Index.Compartment">
@@ -140,6 +143,9 @@
     </columns>
     <columns xmi:id="_Xv3yUFL7EeiH3IFEFYp_8w" name="nome_empresa">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dAA2QFL7EeiH3IFEFYp_8w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="150"/>
+    </columns>
+    <columns xmi:id="_9Pja4FMyEeiSlcxCa8d7LA" name="nota">
+      <containedType xsi:type="SQLDataTypes:ApproximateNumericDataType" xmi:id="__Py0UFMyEeiSlcxCa8d7LA" name="DOUBLE" primitiveType="DOUBLE_PRECISION"/>
     </columns>
     <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_ebzt8Dp8EeeGePl1lXoFag" name="estagios_PK" members="_JU1M0Dp_EeeGePl1lXoFag _a5KGkDp8EeeGePl1lXoFag"/>
     <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_I9ENEDp_EeeGePl1lXoFag" name="estagios_alunos_FK" members="_JU1M0Dp_EeeGePl1lXoFag" onDelete="CASCADE" uniqueConstraint="_7vKskDp3EeeGePl1lXoFag" referencedTable="_NuVdUDp3EeeGePl1lXoFag">

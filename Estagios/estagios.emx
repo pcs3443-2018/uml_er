@@ -69,7 +69,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_PuXyWFMBEeiH3IFEFYp_8w" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_PuXyWVMBEeiH3IFEFYp_8w" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_PuXyWlMBEeiH3IFEFYp_8w" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PuXyUVMBEeiH3IFEFYp_8w" x="8316" y="3960"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PuXyUVMBEeiH3IFEFYp_8w" x="8052" y="4356"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_PuXyW1MBEeiH3IFEFYp_8w" element="_pHWesFL_EeiH3IFEFYp_8w" fontName="Arial" fontHeight="10" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_PuXyXVMBEeiH3IFEFYp_8w" type="ImageCompartment">
@@ -82,7 +82,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_PuXyY1MBEeiH3IFEFYp_8w" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_PuXyZFMBEeiH3IFEFYp_8w" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_PuXyZVMBEeiH3IFEFYp_8w" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PuXyXFMBEeiH3IFEFYp_8w" x="16104" y="3828"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PuXyXFMBEeiH3IFEFYp_8w" x="18876" y="4620"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_Vy45gFMBEeiH3IFEFYp_8w" element="_Rjyb0FMBEeiH3IFEFYp_8w" fontName="Arial" fontHeight="10" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_Vy45glMBEeiH3IFEFYp_8w" type="ImageCompartment">
@@ -95,9 +95,9 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_Vy45iFMBEeiH3IFEFYp_8w" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_Vy45iVMBEeiH3IFEFYp_8w" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Vy45ilMBEeiH3IFEFYp_8w" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vy45gVMBEeiH3IFEFYp_8w" x="13068" y="8580"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vy45gVMBEeiH3IFEFYp_8w" x="15180" y="9900"/>
           </children>
-          <children xmi:type="umlnotation:UMLShape" xmi:id="_rDvFUFMfEeiAsuqHZe8APw" element="_rDra8FMfEeiAsuqHZe8APw" fontName="Arial" fontHeight="10" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Text">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_rDvFUFMfEeiAsuqHZe8APw" element="_rDra8FMfEeiAsuqHZe8APw" fontName="Segoe UI" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16763850" transparency="0" lineColor="16744576" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_rDvsYFMfEeiAsuqHZe8APw" type="ImageCompartment">
               <layoutConstraint xmi:type="notation:Size" xmi:id="_rDvsYVMfEeiAsuqHZe8APw" width="1320" height="1320"/>
             </children>
@@ -108,7 +108,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_rDwTclMfEeiAsuqHZe8APw" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_rDwTc1MfEeiAsuqHZe8APw" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_rDwTdFMfEeiAsuqHZe8APw" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rDvFUVMfEeiAsuqHZe8APw" x="10428" y="396"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rDvFUVMfEeiAsuqHZe8APw" x="14520" y="396"/>
           </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_R7tGYFMeEeiAsuqHZe8APw" element="_R7g5IFMeEeiAsuqHZe8APw" source="_PuXyUFMBEeiH3IFEFYp_8w" target="_Vy45gFMBEeiH3IFEFYp_8w" fontName="Arial" fontHeight="10" lineColor="3342489" lineWidth="1" showStereotype="Text">
@@ -171,6 +171,12 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b5ONgFMgEeiAsuqHZe8APw"/>
           </ownedParameter>
         </ownedOperation>
+        <ownedOperation xmi:id="_miewkFMzEeiSlcxCa8d7LA" name="listarAlunosSemEstagio">
+          <ownedParameter xmi:id="_qIXSIFMzEeiSlcxCa8d7LA" name="Parameter1" type="_pJcAMDp6EeeGePl1lXoFag" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qIX5MVMzEeiSlcxCa8d7LA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qIX5MFMzEeiSlcxCa8d7LA"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_pHWesFL_EeiH3IFEFYp_8w" name="EstagioDAO" clientDependency="_TJJw8FMeEeiAsuqHZe8APw _ed9GAFMeEeiAsuqHZe8APw _fNY-4FMeEeiAsuqHZe8APw">
         <ownedOperation xmi:id="_9Yg_4FMBEeiH3IFEFYp_8w" name="criar">
@@ -205,29 +211,6 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_bwmu8FMeEeiAsuqHZe8APw" supplier="_pJcAMDp6EeeGePl1lXoFag" client="_nzu6sFL_EeiH3IFEFYp_8w"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_ed9GAFMeEeiAsuqHZe8APw" supplier="_pJcAMDp6EeeGePl1lXoFag" client="_pHWesFL_EeiH3IFEFYp_8w"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_fNY-4FMeEeiAsuqHZe8APw" supplier="_n5R_4Dp6EeeGePl1lXoFag" client="_pHWesFL_EeiH3IFEFYp_8w"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_rDra8FMfEeiAsuqHZe8APw" name="EstagiosHandler" clientDependency="_RmhOoFMgEeiAsuqHZe8APw _SNRsoFMgEeiAsuqHZe8APw">
-        <ownedOperation xmi:id="_vcNhcFMfEeiAsuqHZe8APw" name="enviarEmail">
-          <ownedParameter xmi:id="_Dto90FMhEeiAsuqHZe8APw" name="alunos" type="_pJcAMDp6EeeGePl1lXoFag">
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DtqL8FMhEeiAsuqHZe8APw" value="*"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dtpk4FMhEeiAsuqHZe8APw"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_11szEFMfEeiAsuqHZe8APw" name="Parameter1" type="_pJcAMDp6EeeGePl1lXoFag" direction="return">
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_11vPUFMfEeiAsuqHZe8APw" value="*"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_11taIFMfEeiAsuqHZe8APw"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_6zI9cFMfEeiAsuqHZe8APw" name="avaliarEstagio">
-          <ownedParameter xmi:id="_HUwq8FMgEeiAsuqHZe8APw" name="idEstagio">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://TRANSFORM_CPP_LIBRARIES/CPPPrimitiveTypes.emx#_phDPt6bXEdqm1P7n_cTT_g?C++%20Types/int?"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_HUxSAFMgEeiAsuqHZe8APw" name="nota">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://TRANSFORM_CPP_LIBRARIES/CPPPrimitiveTypes.emx#_phDPvqbXEdqm1P7n_cTT_g?C++%20Types/double?"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_HUxSAVMgEeiAsuqHZe8APw" name="Parameter1" type="_n5R_4Dp6EeeGePl1lXoFag" direction="return"/>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_RmhOoFMgEeiAsuqHZe8APw" supplier="_nzu6sFL_EeiH3IFEFYp_8w" client="_rDra8FMfEeiAsuqHZe8APw"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_SNRsoFMgEeiAsuqHZe8APw" supplier="_pHWesFL_EeiH3IFEFYp_8w" client="_rDra8FMfEeiAsuqHZe8APw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_V1elYFL_EeiH3IFEFYp_8w" name="dominio">
       <eAnnotations xmi:id="_V1elYVL_EeiH3IFEFYp_8w" source="uml2.diagrams">
@@ -302,6 +285,27 @@
           </edges>
         </contents>
       </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rDra8FMfEeiAsuqHZe8APw" name="ServicoEstagios" clientDependency="_RmhOoFMgEeiAsuqHZe8APw _SNRsoFMgEeiAsuqHZe8APw">
+        <ownedOperation xmi:id="_6zI9cFMfEeiAsuqHZe8APw" name="avaliarEstagio">
+          <ownedParameter xmi:id="_HUwq8FMgEeiAsuqHZe8APw" name="idEstagio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://TRANSFORM_CPP_LIBRARIES/CPPPrimitiveTypes.emx#_phDPt6bXEdqm1P7n_cTT_g?C++%20Types/int?"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HUxSAFMgEeiAsuqHZe8APw" name="nota">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://TRANSFORM_CPP_LIBRARIES/CPPPrimitiveTypes.emx#_phDPvqbXEdqm1P7n_cTT_g?C++%20Types/double?"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HUxSAVMgEeiAsuqHZe8APw" name="Parameter1" type="_n5R_4Dp6EeeGePl1lXoFag" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8seGgFMzEeiSlcxCa8d7LA" name="importarAlunos">
+          <ownedParameter xmi:id="_DFdo4FM0EeiSlcxCa8d7LA" name="arquivoExcel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HoTh8FM0EeiSlcxCa8d7LA" name="salvaEstagioEmPDF">
+          <ownedParameter xmi:id="_ND8rQFM0EeiSlcxCa8d7LA" name="idEstagio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_pJcAMDp6EeeGePl1lXoFag" name="Aluno">
         <ownedAttribute xmi:id="_qf9uQDp6EeeGePl1lXoFag" name="estagios" visibility="private" type="_n5R_4Dp6EeeGePl1lXoFag" association="_qf0kUDp6EeeGePl1lXoFag">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qgAKgDp6EeeGePl1lXoFag" value="*"/>
@@ -422,6 +426,8 @@
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_qf0kUDp6EeeGePl1lXoFag" memberEnd="_qf9uQDp6EeeGePl1lXoFag _qgBYoDp6EeeGePl1lXoFag"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_SNRsoFMgEeiAsuqHZe8APw" supplier="_pHWesFL_EeiH3IFEFYp_8w" client="_rDra8FMfEeiAsuqHZe8APw"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_RmhOoFMgEeiAsuqHZe8APw" supplier="_nzu6sFL_EeiH3IFEFYp_8w" client="_rDra8FMfEeiAsuqHZe8APw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ZZh68FL_EeiH3IFEFYp_8w" name="controller">
       <eAnnotations xmi:id="_ZZh68VL_EeiH3IFEFYp_8w" source="uml2.diagrams"/>
