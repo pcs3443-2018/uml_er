@@ -369,6 +369,9 @@
           <ownedParameter xmi:id="_iU96AFMBEeiH3IFEFYp_8w" name="aluno" type="_pJcAMDp6EeeGePl1lXoFag"/>
         </ownedOperation>
         <ownedOperation xmi:id="_i1sBcFMBEeiH3IFEFYp_8w" name="recuperar">
+          <ownedComment xmi:id="_HfvJcFOwEeiWidosShFObw" annotatedElement="_i1sBcFMBEeiH3IFEFYp_8w">
+            <body>&lt;p>Inclui os estágios do aluno&lt;/p></body>
+          </ownedComment>
           <ownedParameter xmi:id="_lh-BgFMBEeiH3IFEFYp_8w" name="id">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </ownedParameter>
@@ -592,6 +595,12 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
+          <ownedOperation xmi:id="_1WCZIFOvEeiWidosShFObw" name="getEstagios">
+            <ownedParameter xmi:id="_3yhpsFOvEeiWidosShFObw" name="Parameter1" type="_n5R_4Dp6EeeGePl1lXoFag" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3yqzoVOvEeiWidosShFObw" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3yqzoFOvEeiWidosShFObw"/>
+            </ownedParameter>
+          </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_n5R_4Dp6EeeGePl1lXoFag" name="Estagio">
           <ownedAttribute xmi:id="_qgBYoDp6EeeGePl1lXoFag" name="aluno" visibility="private" type="_pJcAMDp6EeeGePl1lXoFag" association="_qf0kUDp6EeeGePl1lXoFag">
@@ -662,6 +671,9 @@
             <ownedParameter xmi:id="_MyaRUFMeEeiAsuqHZe8APw" name="nota">
               <type xmi:type="uml:PrimitiveType" href="pathmap://TRANSFORM_CPP_LIBRARIES/CPPPrimitiveTypes.emx#_phDPvqbXEdqm1P7n_cTT_g?C++%20Types/double?"/>
             </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_4dSd8FOvEeiWidosShFObw" name="getAluno">
+            <ownedParameter xmi:id="_5pDtgFOvEeiWidosShFObw" name="Parameter1" type="_pJcAMDp6EeeGePl1lXoFag" direction="return"/>
           </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_qf0kUDp6EeeGePl1lXoFag" memberEnd="_qf9uQDp6EeeGePl1lXoFag _qgBYoDp6EeeGePl1lXoFag"/>
@@ -819,4 +831,5 @@
   <Default:Documentation xmi:id="_NmalgFM8EeiSlcxCa8d7LA" base_Comment="_NmYwUFM8EeiSlcxCa8d7LA"/>
   <LogicalDataModel:Annotation xmi:id="_OnOiQVM8EeiSlcxCa8d7LA" base_Class="_OnOiQFM8EeiSlcxCa8d7LA"/>
   <LogicalDataModel:Annotation xmi:id="_QCF9wVM8EeiSlcxCa8d7LA" base_Class="_QCF9wFM8EeiSlcxCa8d7LA"/>
+  <Default:Documentation xmi:id="_HfvJcVOwEeiWidosShFObw" base_Comment="_HfvJcFOwEeiWidosShFObw"/>
 </xmi:XMI>
