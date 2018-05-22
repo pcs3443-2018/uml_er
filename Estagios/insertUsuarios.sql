@@ -1,10 +1,10 @@
 
 --inicializar os usuários
-insert into usuarios (login,senha,data_cadastro,ativo) values('um_coordenador',AES_ENCRYPT('12345', 'seedmuitosegura(ou variável)'), NOW(), 1);
-insert into usuarios (login,senha,data_cadastro,ativo) values('um_gestor',AES_ENCRYPT('12345', 'seedmuitosegura(ou variável)'), NOW(), 1);
-insert into usuarios (login,senha,data_cadastro,ativo) values('um_aluno',AES_ENCRYPT('12345', 'seedmuitosegura(ou variável)'), NOW(), 1);
-insert into usuarios (login,senha,data_cadastro,ativo) values('um_administrador',AES_ENCRYPT('12345', 'seedmuitosegura(ou variável)'), NOW(), 1);
-insert into usuarios (login,senha,data_cadastro,ativo) values('um_administrador_coordenador',AES_ENCRYPT('12345', 'seedmuitosegura(ou variável)'), NOW(), 1);
+insert into usuarios (login,senha,data_cadastro,ativo) values('um_coordenador',AES_ENCRYPT('12345', 'seedmuitosegura(ou variavel)'), NOW(), 1);
+insert into usuarios (login,senha,data_cadastro,ativo) values('um_gestor',AES_ENCRYPT('12345', 'seedmuitosegura(ou variavel)'), NOW(), 1);
+insert into usuarios (login,senha,data_cadastro,ativo) values('um_aluno',AES_ENCRYPT('12345', 'seedmuitosegura(ou variavel)'), NOW(), 1);
+insert into usuarios (login,senha,data_cadastro,ativo) values('um_administrador',AES_ENCRYPT('12345', 'seedmuitosegura(ou variavel)'), NOW(), 1);
+insert into usuarios (login,senha,data_cadastro,ativo) values('um_administrador_coordenador',AES_ENCRYPT('12345', 'seedmuitosegura(ou variavel)'), NOW(), 1);
 --criar os perfis
 insert into perfis (nome) values ("Administrador");
 insert into perfis (nome) values ("Aluno");

@@ -19,7 +19,7 @@ CREATE TABLE estagios (
 
 CREATE TABLE usuarios (
 	id INT NOT NULL AUTO_INCREMENT,
-	login TEXT,
+	login VARCHAR(250),
 	senha BLOB,
 	data_cadastro DATETIME NOT NULL,
 	ativo BIT,
@@ -28,23 +28,23 @@ CREATE TABLE usuarios (
 
 CREATE TABLE funcionalidades (
 	id INT NOT NULL AUTO_INCREMENT,
-	descricao TEXT NOT NULL,
+	descricao VARCHAR(255) NOT NULL,
 	PRIMARY KEY (id)
 );
 
 CREATE TABLE perfis (
-	nome VARCHAR(50) NOT NULL,
+	nome VARCHAR(20) NOT NULL,
 	PRIMARY KEY (nome)
 );
 
 CREATE TABLE usuario_perfis (
 	id_usuario INT NOT NULL,
-	nome_perfil VARCHAR(50) NOT NULL,
+	nome_perfil VARCHAR(20) NOT NULL,
 	PRIMARY KEY (id_usuario,nome_perfil)
 );
 
 CREATE TABLE perfil_funcionalidades (
-	nome_perfil VARCHAR(50) NOT NULL,
+	nome_perfil VARCHAR(20) NOT NULL,
 	id_funcionalidade INT NOT NULL,
 	PRIMARY KEY (nome_perfil,id_funcionalidade)
 );
