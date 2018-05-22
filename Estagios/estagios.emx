@@ -385,7 +385,20 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_iXhSwF1JEein-uCcblQzgA" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_iXhSwV1JEein-uCcblQzgA" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_iXhSwl1JEein-uCcblQzgA" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iXgEoV1JEein-uCcblQzgA" x="12672" y="5412"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iXgEoV1JEein-uCcblQzgA" x="10824" y="5412"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_wzhusF1cEein-uCcblQzgA" element="_wzWIgF1cEein-uCcblQzgA" fontName="Arial" fontHeight="10" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wziVwF1cEein-uCcblQzgA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_wziVwV1cEein-uCcblQzgA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_wziVwl1cEein-uCcblQzgA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_wzi80F1cEein-uCcblQzgA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_wzi80V1cEein-uCcblQzgA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_wzi80l1cEein-uCcblQzgA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_wzjj4F1cEein-uCcblQzgA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_wzjj4V1cEein-uCcblQzgA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wzkK8F1cEein-uCcblQzgA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wzhusV1cEein-uCcblQzgA" x="18970" y="4921"/>
           </children>
           <element xsi:nil="true"/>
         </contents>
@@ -464,6 +477,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_gIaW4F1JEein-uCcblQzgA" name="UserDAO"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_iXdoYF1JEein-uCcblQzgA" name="FuncionalidadeDAO"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wzWIgF1cEein-uCcblQzgA" name="PerfilDAO"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_V1elYFL_EeiH3IFEFYp_8w" name="dominio">
       <eAnnotations xmi:id="_V1elYVL_EeiH3IFEFYp_8w" source="uml2.diagrams">
@@ -1112,4 +1126,5 @@
   <LogicalDataModel:Annotation xmi:id="_WVPMoV1JEein-uCcblQzgA" base_Package="_WVPMoF1JEein-uCcblQzgA"/>
   <LogicalDataModel:Annotation xmi:id="_gIaW4V1JEein-uCcblQzgA" base_Class="_gIaW4F1JEein-uCcblQzgA"/>
   <LogicalDataModel:Annotation xmi:id="_iXePcF1JEein-uCcblQzgA" base_Class="_iXdoYF1JEein-uCcblQzgA"/>
+  <LogicalDataModel:Annotation xmi:id="_wzYkwF1cEein-uCcblQzgA" base_Class="_wzWIgF1cEein-uCcblQzgA"/>
 </xmi:XMI>

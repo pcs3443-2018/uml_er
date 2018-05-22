@@ -1,0 +1,14 @@
+insert into funcionalidades (descricao) values ("Cadastrar Aluno");
+insert into funcionalidades (descricao) values ("Cadastrar Usuários");
+insert into funcionalidades (descricao) values ("Editar Perfis do Usuário");
+insert into funcionalidades (descricao) values ("Importar Alunos de Arquivo Excel");
+insert into funcionalidades (descricao) values ("Registrar Estágio");
+insert into funcionalidades (descricao) values ("Avaliar Estágio");
+insert into funcionalidades (descricao) values ("Mostrar Alunos com pendências de estágio");
+insert into funcionalidades (descricao) values ("Divulgar Vaga de Estágio");
+insert into funcionalidades (descricao) values ("Enviar Avaliação do Gestor de Estágio");
+insert into funcionalidades (descricao) values ("Solicitar Registro de Estágio");
+insert into funcionalidades (descricao) values ("Preencher Plano de Estágio");
+insert into funcionalidades (descricao) values ("Enviar Relatório de Estágio");
+insert into funcionalidades (descricao) values ("Histórico do Estágio");
+insert into funcionalidades (descricao) values ("Histórico da Empresa");

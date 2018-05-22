@@ -33,31 +33,39 @@ CREATE TABLE funcionalidades (
 );
 
 CREATE TABLE perfis (
-	id INT NOT NULL AUTO_INCREMENT,
-	id_funcionalidade INT NOT NULL,
-	nome TEXT NOT NULL,
-	PRIMARY KEY (id)
+	nome VARCHAR(50) NOT NULL,
+	PRIMARY KEY (nome)
 );
 
 CREATE TABLE usuario_perfis (
 	id_usuario INT NOT NULL,
-	id_perfil INT NOT NULL,
-	PRIMARY KEY (id_usuario,id_perfil)
+	nome_perfil VARCHAR(50) NOT NULL,
+	PRIMARY KEY (id_usuario,nome_perfil)
+);
+
+CREATE TABLE perfil_funcionalidades (
+	nome_perfil VARCHAR(50) NOT NULL,
+	id_funcionalidade INT NOT NULL,
+	PRIMARY KEY (nome_perfil,id_funcionalidade)
 );
 
 ALTER TABLE estagios ADD CONSTRAINT estagios_alunos_FK FOREIGN KEY (id_aluno)
 	REFERENCES alunos (id)
 	ON DELETE CASCADE;
 
-ALTER TABLE perfis ADD CONSTRAINT perfis_funcionalidades_FK FOREIGN KEY (id_funcionalidade)
-	REFERENCES funcionalidades (id)
-	ON DELETE CASCADE;
-
 ALTER TABLE usuario_perfis ADD CONSTRAINT usuario_perfis_usuarios_FK FOREIGN KEY (id_usuario)
 	REFERENCES usuarios (id)
 	ON DELETE CASCADE;
 
-ALTER TABLE usuario_perfis ADD CONSTRAINT usuario_perfis_perfis_FK FOREIGN KEY (id_perfil)
-	REFERENCES perfis (id)
+ALTER TABLE usuario_perfis ADD CONSTRAINT usuario_perfis_perfis_FK FOREIGN KEY (nome_perfil)
+	REFERENCES perfis (nome)
+	ON DELETE CASCADE;
+
+ALTER TABLE perfil_funcionalidades ADD CONSTRAINT perfil_funcionalidades_perfis_FK FOREIGN KEY (nome_perfil)
+	REFERENCES perfis (nome)
+	ON DELETE CASCADE;
+
+ALTER TABLE perfil_funcionalidades ADD CONSTRAINT perfil_funcionalidades_funcionalidades_FK FOREIGN KEY (id_funcionalidade)
+	REFERENCES funcionalidades (id)
 	ON DELETE CASCADE;
 
