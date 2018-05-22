@@ -20,7 +20,7 @@ CREATE TABLE estagios (
 CREATE TABLE usuarios (
 	id INT NOT NULL AUTO_INCREMENT,
 	login TEXT,
-	senha TEXT,
+	senha BLOB,
 	data_cadastro DATETIME NOT NULL,
 	ativo BIT,
 	PRIMARY KEY (id)
@@ -49,6 +49,37 @@ CREATE TABLE perfil_funcionalidades (
 	PRIMARY KEY (nome_perfil,id_funcionalidade)
 );
 
+CREATE TABLE coordenadores (
+	id INT NOT NULL,
+	nome VARCHAR(255) NOT NULL,
+	numero_usp VARCHAR(15) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE gestores (
+	id INT NOT NULL,
+	id_empresa INT NOT NULL,
+	nome VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id,id_empresa)
+);
+
+CREATE TABLE empresas (
+	id INT NOT NULL AUTO_INCREMENT,
+	nome CHAR(255) NOT NULL,
+	cnpj VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE administradores (
+	id INT NOT NULL,
+	nome VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+ALTER TABLE alunos ADD CONSTRAINT alunos_usuarios_FK FOREIGN KEY (id)
+	REFERENCES usuarios (id)
+	ON DELETE CASCADE;
+
 ALTER TABLE estagios ADD CONSTRAINT estagios_alunos_FK FOREIGN KEY (id_aluno)
 	REFERENCES alunos (id)
 	ON DELETE CASCADE;
@@ -67,5 +98,21 @@ ALTER TABLE perfil_funcionalidades ADD CONSTRAINT perfil_funcionalidades_perfis_
 
 ALTER TABLE perfil_funcionalidades ADD CONSTRAINT perfil_funcionalidades_funcionalidades_FK FOREIGN KEY (id_funcionalidade)
 	REFERENCES funcionalidades (id)
+	ON DELETE CASCADE;
+
+ALTER TABLE coordenadores ADD CONSTRAINT coordenadores_usuarios_FK FOREIGN KEY (id)
+	REFERENCES usuarios (id)
+	ON DELETE CASCADE;
+
+ALTER TABLE gestores ADD CONSTRAINT gestores_usuarios_FK FOREIGN KEY (id)
+	REFERENCES usuarios (id)
+	ON DELETE CASCADE;
+
+ALTER TABLE gestores ADD CONSTRAINT gestores_empresas_FK FOREIGN KEY (id_empresa)
+	REFERENCES empresas (id)
+	ON DELETE CASCADE;
+
+ALTER TABLE administradores ADD CONSTRAINT administradores_usuarios_FK FOREIGN KEY (id)
+	REFERENCES usuarios (id)
 	ON DELETE CASCADE;
 
