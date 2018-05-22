@@ -839,15 +839,25 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_WVPMoF1JEein-uCcblQzgA" name="seguranca">
         <eAnnotations xmi:id="_WVRB0F1JEein-uCcblQzgA" source="uml2.diagrams"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_QCF9wFM8EeiSlcxCa8d7LA" name="Funcionalidade"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QCF9wFM8EeiSlcxCa8d7LA" name="Funcionalidade">
+          <ownedAttribute xmi:id="_OeH1sF1lEeidH9FwJe8CLA" name="nome" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_YtjeIF1lEeidH9FwJe8CLA" name="id" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_OnOiQFM8EeiSlcxCa8d7LA" name="Perfil">
           <ownedAttribute xmi:id="_KupkAF1JEein-uCcblQzgA" name="funcionalidades" visibility="private" type="_QCF9wFM8EeiSlcxCa8d7LA" association="_KumgsF1JEein-uCcblQzgA">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KurZMF1JEein-uCcblQzgA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KuqyIF1JEein-uCcblQzgA" value="1"/>
           </ownedAttribute>
+          <ownedAttribute xmi:id="_acuVsF1lEeidH9FwJe8CLA" name="id" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://TRANSFORM_CPP_LIBRARIES/CPPPrimitiveTypes.emx#_phDPt6bXEdqm1P7n_cTT_g?C++%20Types/int?"/>
+          </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_rghUEF1IEein-uCcblQzgA" name="Usuario">
-          <ownedAttribute xmi:id="_xHbSMF1IEein-uCcblQzgA" name="perfil" visibility="private" type="_OnOiQFM8EeiSlcxCa8d7LA" association="_xHYO4F1IEein-uCcblQzgA">
+          <ownedAttribute xmi:id="_xHbSMF1IEein-uCcblQzgA" name="perfis" visibility="private" type="_OnOiQFM8EeiSlcxCa8d7LA" association="_xHYO4F1IEein-uCcblQzgA">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xHeVgV1IEein-uCcblQzgA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xHeVgF1IEein-uCcblQzgA" value="1"/>
           </ownedAttribute>
@@ -856,6 +866,9 @@
           </ownedAttribute>
           <ownedAttribute xmi:id="_5RoTgF1IEein-uCcblQzgA" name="senha" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_dCIRsF1lEeidH9FwJe8CLA" name="id" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_xHYO4F1IEein-uCcblQzgA" memberEnd="_xHbSMF1IEein-uCcblQzgA _xHfjoF1IEein-uCcblQzgA">
@@ -1127,4 +1140,12 @@
   <LogicalDataModel:Annotation xmi:id="_gIaW4V1JEein-uCcblQzgA" base_Class="_gIaW4F1JEein-uCcblQzgA"/>
   <LogicalDataModel:Annotation xmi:id="_iXePcF1JEein-uCcblQzgA" base_Class="_iXdoYF1JEein-uCcblQzgA"/>
   <LogicalDataModel:Annotation xmi:id="_wzYkwF1cEein-uCcblQzgA" base_Class="_wzWIgF1cEein-uCcblQzgA"/>
+  <LogicalDataModel:Attribute xmi:id="_OhwYgF1lEeidH9FwJe8CLA" base_Property="_OeH1sF1lEeidH9FwJe8CLA"/>
+  <LogicalDataModel:Annotation xmi:id="_OhxmoF1lEeidH9FwJe8CLA" base_Property="_OeH1sF1lEeidH9FwJe8CLA"/>
+  <LogicalDataModel:Attribute xmi:id="_YtkFMF1lEeidH9FwJe8CLA" base_Property="_YtjeIF1lEeidH9FwJe8CLA"/>
+  <LogicalDataModel:Annotation xmi:id="_YtkFMV1lEeidH9FwJe8CLA" base_Property="_YtjeIF1lEeidH9FwJe8CLA"/>
+  <LogicalDataModel:Attribute xmi:id="_acuVsV1lEeidH9FwJe8CLA" base_Property="_acuVsF1lEeidH9FwJe8CLA"/>
+  <LogicalDataModel:Annotation xmi:id="_acuVsl1lEeidH9FwJe8CLA" base_Property="_acuVsF1lEeidH9FwJe8CLA"/>
+  <LogicalDataModel:Attribute xmi:id="_dCI4wF1lEeidH9FwJe8CLA" base_Property="_dCIRsF1lEeidH9FwJe8CLA"/>
+  <LogicalDataModel:Annotation xmi:id="_dCI4wV1lEeidH9FwJe8CLA" base_Property="_dCIRsF1lEeidH9FwJe8CLA"/>
 </xmi:XMI>
